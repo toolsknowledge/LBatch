@@ -1,0 +1,309 @@
+Introduction
+************
+	HTML Stands for Hyper Text Markup Language
+
+	HTML, used to develop webpages.
+
+	Collection of webpages called as web application.
+
+	we will execute webpages with the help of browsers
+
+	Ex.
+		Google Chrome
+
+		Mozilla
+
+		Opera
+
+		Netscape Navigator
+
+		IE
+
+
+	we will develop webpages with the help of TAGS
+
+	Ex.
+			<html></html>
+
+			<head></head>
+		
+			<body></body>
+
+			<title></title>
+		
+			<p></p>
+
+			<table></table>
+
+			<img>
+
+			---
+			---
+			---
+
+	above tags released by Vendor.
+
+	"Tim Berners Lee" Released the HTML.
+
+	we will save webpages with ".html" or ".htm" extension
+
+	we will apply styles to the webpages with CSS
+
+	CSS Stands for Cascading Style Sheet
+
+	we will convert Static Web Pages to Dynamic Web Pages 
+   with the help of JavaScript
+
+	CSS helps to apply styles to webpages
+
+	Ex.
+			color
+
+			background-color
+
+			font-size
+
+			font-family
+
+			margins
+
+			paddings
+
+			---
+			---
+			---
+
+	The Current Version of HTML is "HTML5.X"
+
+	HTML5.X Supports following Features
+
+	1) Storages
+
+			=> Local Storage
+
+			=> Session Storage
+
+	2) Location API (This API Helps to use Google Maps in Web pages)
+
+	3) Schemantic Elements 
+				
+				<header></header>
+
+				<aside></aside>
+
+				<audio></audio>
+
+				<video></video>
+
+				<main></main>
+
+				<footer></footer>
+
+	4) Web Socket API (This API Helps to implement the Chat Application)
+
+	5) Web Worker API (This API Helps to implement the Multi Threading Applications))
+
+
+	Suggestable Editors to develop webpages are
+
+			=> Notepad
+
+			=> Editplus
+
+			=> Notepad++
+
+			=> Visual Studio Code
+
+
+	Visual Studio Code is the IDE.
+
+	IDE Stands for Integrated Development Enviroment
+
+	Visual Studio Code IDE recomended to develop web applications
+
+	VSCode IDE provided by Microsoft and Open Source IDE
+
+Software Installation
+*********************
+1) download and install Visual Studio Code
+
+	website : https://code.visualstudio.com/docs/?dv=win
+
+	file    : VSCodeUserSetup-x64-1.68.1.exe
+
+
+
+2) download and install Browser
+
+		Ex.
+				Google Chrome
+
+
+3) Plugin Installation
+
+
+	=> LiveServer
+
+			LiveServer plugin Captures the Code Changes in VSCode IDE
+
+			LiveServer Plugin Gives the Notification to Browser
+
+			Browser will reload automatically with Latest Code Changes
+
+
+			Click Extensions ==> Search "Live Server" ==> 
+        Select Live Sever ==> Click install
+
+
+	=> DummyTextGenarator
+
+			This plugin, used to genarate the Dummy Text in webpages
+
+
+			Click Extensions ==> Search for Dummy Text Generaor ==> Select
+          
+        Dummy Text Generator ==> click the install
+
+
+
+4) Enable AutoSave Mode in Visual Studio Code
+
+
+	we will use this option to save the application code automatically
+
+
+	Click Manage Icon ==> Settings ==> Auto Save ==> after Delay
+
+
+5) make google chrome as default browser
+
+
+Structure of Web Page
+*********************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
