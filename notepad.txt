@@ -180,6 +180,98 @@ Software Installation
 
 Structure of Web Page
 *********************
+Structure of Web Page
+*********************
+
+Version of HTML/DOCTYPE
+
+Root Section
+
+		Head Section
+
+			Metadata
+
+		Body Section
+
+			Main Content
+
+
+DOCTYPE Representing Version of HTML.
+
+below DOCTYPE Representing HTML 5.X
+
+<!DOCTYPE html>
+
+
+<html></html> tag, used to represent the Root Section
+
+Root Section Divided into two sections
+
+1) Head Section
+
+2) Body Section
+
+<head></head> tag, used to represent the Head section of webpage
+
+<body></body> tag, used to represent the body section of webpage
+
+we will define METADATA under head section
+
+METADATA
+********
+	data about webpage called as METADATA
+
+	<meta> tag, used to define the metadata
+
+
+we will define main content of webpage under body section
+
+Ex.
+		images
+
+		headings
+
+		paragraphs
+
+		tables
+
+		---
+		---
+		---
+
+
+demo.html
++++++++++
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+		 	<title>Demo</title>
+			
+			<style></style>
+			
+			<link rel="stylesheet" href="demo.css">
+			
+			<meta name="author" content="Sathya Technologies">
+	 
+			<meta name="description" content="Sathya Technologies UI Classes">
+
+			<meta http-equi="refresh" content="5000">
+
+			<meta name="viewport" 
+              content="width=device-width,initial-scale=1.0">
+
+
+			<meta name="keywords" content="SathyaUI,SathyaHTML,SathyaWeb">
+	</head>
+
+	<body>
+
+			//main content	
+	 
+	 </body>
+</html>
 
 
 
