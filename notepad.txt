@@ -257,7 +257,7 @@ demo.html
 	 
 			<meta name="description" content="Sathya Technologies UI Classes">
 
-			<meta http-equi="refresh" content="5000">
+			<meta http-equie="refresh" content="5000">
 
 			<meta name="viewport" 
               content="width=device-width,initial-scale=1.0">
@@ -272,6 +272,103 @@ demo.html
 	 
 	 </body>
 </html>
+
+Attributes
+**********
+	Attributes are key & value pairs
+
+	Attributes enhances the Tags Features
+
+Ex.
+	color = "red"
+
+	align = "center"
+
+	---
+	---
+	---
+
+Element
+*******
+	opening tag, content of webpage and closing tag called as Element
+
+	Ex.
+		<p>Hello</p>
+
+Types of Elements
+
+1) non container elements (empty elements)
+
+		tags without closing tag and content of webpage called as non container elements
+
+	Ex.
+		<meta>
+
+
+2) container elements
+		complete element (opening tag, content of web page and closing tag) called as container element
+
+	Ex.
+		<html></html>
+
+		<head></head>
+
+		<title></title>
+
+		<body></body>
+
+		---
+		---
+		---
+
+headings
+********
+	HTML, Supports six types of headings
+
+<h1></h1>     main heading
+
+<h2></h2>     sub heading
+
+<h3></h3>     sub heading
+
+<h4></h4>     sub heading
+
+<h5></h5>     sub heading
+
+<h6></h6>     sub heading
+
+paragraphs
+**********
+	<p></p> tag, used to create paragraphs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
