@@ -342,6 +342,40 @@ paragraphs
 	<p></p> tag, used to create paragraphs
 
 
+divisions
+*********
+	<div></div> tag, used to create divisions in webpage
+
+anchor
+******
+	<a></a> tag, used to represent the anchor elements in webpages
+
+	1) used to open the external webpages
+
+	2) used to open the local webpages
+
+	3) used to send the emails
+
+	4) used to make the phone calls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

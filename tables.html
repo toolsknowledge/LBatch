@@ -1,154 +1,89 @@
-<!--
 <!DOCTYPE html>
 <html>
     <head>
         <title>Tables</title>
+        <style>
+           table{
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+           }
+           table,th,td{
+                border: 1px solid gray;
+           }
+           th{
+            height: 50px;
+            background-color: salmon;
+            color: white;
+            font-weight: bold;
+           }
+           td{
+             height: 40px;
+           }
+           tr:nth-child(even){
+             background-color: cyan;
+           }
+           tr:nth-child(odd){
+            background-color: burlywood;
+           }
+           tr:hover{
+            background-color: chartreuse;
+           }
+        </style>
     </head>
     <body>
-        <table align="center"
-               border="1"
-               cellspacing="20px"
-               cellpadding="20px">
-            <tr>
-                <th rowspan="2">P_ID <br><br> P101</th>
-                <th colspan="2">P_NAME & P_COST</th>
-            </tr>
-            <tr>
-                <td>P_ONE</td>
-                <td rowspan="2">10000 <br><br> 20000</td>
-            </tr>
-            <tr>
-                <td colspan="2">P102 & P_TWO</td>
-            </tr>
-            <tr>
-                <td>P103</td>
-                <td>P_THREE</td>
-                <td>30000</td>
-            </tr>
-            <tr>
-                <td colspan="3">P104 & P_FOUR & 40000</td>
-            </tr>
-            <tr>
-                <td>P105</td>
-                <td>P_FIVE</td>
-                <td>50000</td>
-            </tr>
-        </table>
-    </body>
-</html>
--->
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Tables</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <table border="1"
-               align="center"
-               cellspacing="20px"
-               cellpadding="20px">
+        <table>
             <tr>
                 <th>SNO</th>
-                <th>NAME</th>
-                <th>BRAND</th>
-                <th>COST</th>
-                <th>RATING</th>
-                <th>IMAGE</th>
+                <th>E_ID</th>
+                <th>E_NAME</th>
+                <th>E_DEPT</th>
+                <th>E_DESIGNATION</th>
             </tr>
             <tr>
                 <td>1</td>
-                <td>Shirt1</td>
-                <td>Polo</td>
-                <td><i class="fa fa-inr"></i>500</td>
-                <td>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </td>
-                <td>
-                    <img src="https://imagesbucketex.s3.ap-south-1.amazonaws.com/shirt1.jpg" width="100">
-                </td>
+                <td>E101</td>
+                <td>E_ONE</td>
+                <td>Dev Dept</td>
+                <td>Developer</td>
             </tr>
-
             <tr>
                 <td>2</td>
-                <td>Shirt2</td>
-                <td>Niki</td>
-                <td><i class="fa fa-inr"></i>600</td>
-                <td>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </td>
-                <td>
-                    <img src="https://imagesbucketex.s3.ap-south-1.amazonaws.com/shirt2.jpg" width="100">
-                </td>
+                <td>E102</td>
+                <td>E_TWO</td>
+                <td>Prod Dept</td>
+                <td>Manager</td>
             </tr>
 
             <tr>
                 <td>3</td>
-                <td>Shirt3</td>
-                <td>American</td>
-                <td><i class="fa fa-inr"></i>700</td>
-                <td>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </td>
-                <td>
-                    <img src="https://imagesbucketex.s3.ap-south-1.amazonaws.com/shirt3.jpg" width="100">
+                <td>E103</td>
+                <td>E_THREE</td>
+                <td>Testing Dept</td>
+                <td>Tester</td>
             </tr>
 
             <tr>
                 <td>4</td>
-                <td>Pant1</td>
-                <td>Niki</td>
-                <td><i class="fa fa-inr"></i>1000</td>
-                <td>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </td>
-                <td>
-                    <img src="https://imagesbucketex.s3.ap-south-1.amazonaws.com/pant1.jpg" width="100">
+                <td>E104</td>
+                <td>E_FOUR</td>
+                <td>Arch Dept</td>
+                <td>Arch</td>
             </tr>
 
             <tr>
                 <td>5</td>
-                <td>Pant2</td>
-                <td>Polo</td>
-                <td><i class="fa fa-inr"></i>1500</td>
-                <td>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </td>
-                <td>
-                    <img src="https://imagesbucketex.s3.ap-south-1.amazonaws.com/pant2.jpg" width="100">
-            </tr>
-
-            <tr>
-                <td>6</td>
-                <td>Pant3</td>
-                <td>American</td>
-                <td><i class="fa fa-inr"></i>2000</td>
-                <td>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </td>
-                <td>
-                    <img src="https://imagesbucketex.s3.ap-south-1.amazonaws.com/pant3.jpg" width="100">
+                <td>E105</td>
+                <td>E_FIVE</td>
+                <td>HR Dept</td>
+                <td>HR</td>
             </tr>
         </table>
     </body>
 </html>
+
+
+
 
 
 
