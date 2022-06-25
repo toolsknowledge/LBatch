@@ -359,6 +359,77 @@ anchor
 	4) used to make the phone calls
 
 
+images
+******
+	<img> tag, used to display the images on webpages
+
+	by default image tag is inline element
+
+
+Attributes
+**********
+
+1) src
+
+	used to link the target images
+
+
+2) alt
+
+	alt stands for alternate Text
+
+	if image display fails automatically alternative text will display
+
+
+3) width
+
+	used to specify the width of the image
+
+
+4) height
+
+	used to specify the height of the image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,125 @@
+<!--
+     Forms
+     *****  
+        collection of user data/application data called as 
+    form
+
+    controls
+    ********
+    1) Text Fields
+
+    2) Password Fields
+
+    3) Email Fields
+
+    4) Radio Buttons   (Single Selection)
+
+    5) Checkboxes      (Multi Selection)
+
+    6) Date Pickers
+
+    7) Time Pickers
+
+    8) Address Fields
+
+    9) Range Bar
+
+    ---
+    ---
+    ---
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            fieldset{
+                border: 1px solid gray;
+                width: 50%;
+                border-radius: 20px;
+            }
+            legend{
+                background-color: yellow;
+                color: red;
+                padding: 10px;
+                border: 1px solid red;
+                border-radius: 10px;
+                font-family: Comic Sans MS;
+            } 
+            div{
+                margin-bottom: 10px;
+            }  
+            label{
+                margin-right: 50px;
+                font-family: 'Franklin Gothic Medium';
+            }
+            input{
+                width: 300px;
+                height: 30px;
+                outline: none;
+                border: 1px solid gray;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <form method="" 
+                  action="" 
+                  onsubmit="myFun()"
+                  name="myForm">
+                <!-- First Name-->
+                <div>
+                    <label>First Name</label>
+                    <input type="text"
+                           placeholder="Enter First Name"
+                           name="fname">
+                </div>
+
+                <!-- Last Name-->
+                <div>
+                    <label>Last Name</label>
+                    <input type="text"
+                           placeholder="Enter Last Name"
+                           name="lname">
+                </div>
+
+                <!-- Password -->
+                <div>
+                    <label style="margin-right: 57px;">Password</label>
+                    <input type="password"
+                           placeholder="Enter Password"
+                           name="upassword">
+                </div>
+
+                <!-- Email -->
+                <div>
+                    <label style="margin-right: 85px;">Email</label>
+                    <input type="email"
+                           placeholder="Enter Email"
+                           name="uemail">
+                </div>
+
+                <!--Mobile-->
+                <div>
+                    <label style="margin-right: 75px;">Mobile</label>
+                    <input type="tel"
+                           name="umobile"
+                           placeholder="enter mobile number">
+                </div>
+
+
+            </form>
+        </fieldset>
+    </body>
+</html>
+
+
+
+
+
+
+
+
