@@ -34,9 +34,9 @@
         <title>Forms</title>
         <style>
             fieldset{
-                border: 1px solid gray;
+                border: 1px solid red;
+                border-radius: 10px;
                 width: 50%;
-                border-radius: 20px;
             }
             legend{
                 background-color: yellow;
@@ -44,82 +44,199 @@
                 padding: 10px;
                 border: 1px solid red;
                 border-radius: 10px;
-                font-family: Comic Sans MS;
-            } 
+            }
             div{
                 margin-bottom: 10px;
-            }  
-            label{
-                margin-right: 50px;
-                font-family: 'Franklin Gothic Medium';
             }
-            input{
+            label{
+                margin-right: 60px;
+                font-family: 'Courier New';
+                font-weight: bold;
+            }
+            input[type="text"],
+            input[type="password"],
+            input[type="email"],
+            input[type="tel"],
+            select{
                 width: 300px;
                 height: 30px;
                 outline: none;
                 border: 1px solid gray;
-                border-radius: 20px;
+                border-radius: 10px;
             }
+
+            input[type="submit"],
+            input[type="reset"]{
+                width: 100px;
+                margin-left: 50px;
+                height: 30px;
+                background: linear-gradient(45deg,red,black);
+                color: white;
+                border: 1px solid red;
+                border-radius: 10px;
+            }
+
+            input[type="submit"]:hover,
+            input[type="reset"]:hover{
+                width: 110px;
+                height: 40px;
+            }
+
+
         </style>
     </head>
-
     <body>
         <fieldset>
             <legend>Registration Form</legend>
             <form method="" 
                   action="" 
-                  onsubmit="myFun()"
-                  name="myForm">
+                  onsubmit="func_one()"
+                  name="regForm">
+
                 <!-- First Name-->
                 <div>
                     <label>First Name</label>
-                    <input type="text"
-                           placeholder="Enter First Name"
-                           name="fname">
+                    <input type="text" 
+                           name="fname" 
+                           placeholder="Enter First Name">
                 </div>
 
-                <!-- Last Name-->
+
+                <!-- Last Name -->
                 <div>
-                    <label>Last Name</label>
+                    <label style="margin-right: 70px;">Last Name</label>
                     <input type="text"
-                           placeholder="Enter Last Name"
-                           name="lname">
+                           name="lname"
+                           placeholder="Enter Last Name">
                 </div>
 
-                <!-- Password -->
+
+                <!-- password -->
                 <div>
-                    <label style="margin-right: 57px;">Password</label>
+                    <label style="margin-right: 80px;">Password</label>
                     <input type="password"
-                           placeholder="Enter Password"
-                           name="upassword">
+                           name="upasword"
+                           placeholder="Enter Password">
+                </div>
+
+
+                <!-- Confirm Password-->
+                <div>
+                    <label style="margin-right: 5px;">Confirm Password</label>
+                    <input type="password"
+                           name="cpassword"
+                           placeholder="Reenter Password">
                 </div>
 
                 <!-- Email -->
                 <div>
-                    <label style="margin-right: 85px;">Email</label>
+                    <label style="margin-right: 110px;">Email</label>
                     <input type="email"
-                           placeholder="Enter Email"
-                           name="uemail">
+                           name="uemail"
+                           placeholder="Enter Email">
                 </div>
 
-                <!--Mobile-->
+
+                <!-- Mobile Number -->
                 <div>
-                    <label style="margin-right: 75px;">Mobile</label>
-                    <input type="tel"
-                           name="umobile"
-                           placeholder="enter mobile number">
+                    <label>Contact No</label>
+                    <input type="tel" 
+                           name="contactNumber"
+                           placeholder="Enter Contact Number">
                 </div>
+
+                <!-- Gender-->
+                <div>
+                    <label style="margin-right: 90px;">Gender</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </div>
+
+                <!-- Skills -->
+                <div>
+                    <label style="margin-right: 90px;">Skills</label>
+                    <input type="checkbox" name="skills" value="java">Java
+                    <input type="checkbox" name="skills" value="dotnet">Dot Net
+                    <input type="checkbox" name="skills" value="php">PHP
+                    <input type="checkbox" name="skills" value="UI">UI
+                </div>
+
+
+                <!-- country -->
+                <div>
+                    <label style="margin-right: 85px;">Country</label>
+                    <select name="country">
+                        <option value="">Select Country</option>
+                        <option value="ind">India</option>
+                        <option value="usa">America</option>
+                        <option value="london">UK</option>
+                        <option value="england">England</option>
+                        <option value="japan">Japan</option>
+                    </select>
+                </div>
+
+                <!-- DOB -->
+                <div>
+                    <label>Start Date</label>
+                    <input type="date"
+                           name="sdate"
+                           value="2022-06-25">
+                    <label style="margin-right: 5px;">End Date</label>
+                    <input type="date"
+                           name="edate"
+                           value="2022-06-26">
+                </div>
+
+
+                <!-- Time -->
+                <div>
+                    <label>Start Time</label>
+                    <input type="time" value="12:03">
+                    <label style="margin-right: 5px;">End Time</label>
+                    <input type="time" value="12:04">
+                </div>
+
+                <!-- Address -->
+                <div>
+                    <label style="margin-right: 90px;">Address</label>
+                    <textarea name="uaddress" cols="40" rows="5"></textarea>
+                </div>
+
+
+                <!-- Choose Pic-->
+                <div>
+                    <label>Profile Pic</label>
+                    <input type="file" name="profilepic">
+                </div>
+
+
+                <div>
+                    <input type="submit" value="Register">
+
+                    <input type="reset" value="Reset">
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             </form>
         </fieldset>
     </body>
 </html>
-
-
-
-
-
-
-
-
